@@ -1,9 +1,9 @@
 /* eslint-disable no-undef */
 /* eslint-disable no-process-env */
 const { KlasaClient } = require('klasa');
-const CONFIG = require('./config.json');
+const CONFIG = require('../config.json');
 
-require('./src/lib/extensions/Cerasus');
+require('./lib/extensions/Cerasus');
 
 KlasaClient.defaultGuildSchema.add('roles', schema => {
   schema.add('muted', 'role')

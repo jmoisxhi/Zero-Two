@@ -1,28 +1,37 @@
 <h1 align="center">
   <br>
   <a>
-    <img src="https://github.com/jmoisxhi/Zero-Two/blob/master/src/lib/assets/media/avatar.jpg" alt="Zero Two" width="400">
+    <img src="https://vignette.wikia.nocookie.net/darling-in-the-franxx/images/4/47/Zero_Two_Strelizia_True_Apus.jpg/revision/latest/scale-to-width-down/1000?cb=20180814200307" alt="Zero Two"
+      width="400">
   </a>
   <br>
   Zero Two
   <br>
 
   <a href="https://lgtm.com/projects/g/jmoisxhi/Zero-Two/context:javascript">
-    <img alt="Language grade: JavaScript" src="https://img.shields.io/lgtm/grade/javascript/g/jmoisxhi/Zero-Two.svg?logo=lgtm&logoWidth=18"/>
+    <img alt="Language grade: JavaScript"
+      src="https://img.shields.io/lgtm/grade/javascript/g/jmoisxhi/Zero-Two.svg?logo=lgtm&logoWidth=18" />
   </a>
-  <a href="https://travis-ci.org/jmoisxhi/Zero-Two"><img src="https://travis-ci.org/jmoisxhi/Zero-Two.svg?branch=master" alt="Travis"></a>
+  <a href="https://travis-ci.org/jmoisxhi/Zero-Two"><img src="https://travis-ci.org/jmoisxhi/Zero-Two.svg?branch=master"
+      alt="Travis"></a>
   <a href="https://snyk.io//test/github/jmoisxhi/Zero-Two?targetFile=package.json">
-    <img src="https://snyk.io//test/github/jmoisxhi/Zero-Two/badge.svg?targetFile=package.json" alt="Known Vulnerabilities" data-canonical-src="https://snyk.io//test/github/jmoisxhi/Zero-Two?targetFile=package.json" style="max-width:100%;">
+    <img src="https://snyk.io//test/github/jmoisxhi/Zero-Two/badge.svg?targetFile=package.json"
+      alt="Known Vulnerabilities"
+      data-canonical-src="https://snyk.io//test/github/jmoisxhi/Zero-Two?targetFile=package.json"
+      style="max-width:100%;">
   </a>
-  <a href="https://lgtm.com/projects/g/jmoisxhi/Zero-Two/alerts/"><img alt="Total alerts" src="https://img.shields.io/lgtm/alerts/g/jmoisxhi/Zero-Two.svg?logo=lgtm&logoWidth=18"/></a>
-  
+  <a href="https://lgtm.com/projects/g/jmoisxhi/Zero-Two/alerts/"><img alt="Total alerts"
+      src="https://img.shields.io/lgtm/alerts/g/jmoisxhi/Zero-Two.svg?logo=lgtm&logoWidth=18" /></a>
+
 </h1>
 
-<h4 align="center">A Discord bot based on the popular anime series <a href="https://en.wikipedia.org/wiki/Darling_in_the_Franxx" target="_blank">Darling in the FranXX</a> and built on top of the <a href="https://github.com/dirigeants/klasa" target="_blank"> KlasaJS</a> framework.</h4>
+<h4 align="center">A Discord bot based on the popular anime series <a
+    href="https://en.wikipedia.org/wiki/Darling_in_the_Franxx" target="_blank">Darling in the FranXX</a> and built on
+  top of the <a href="https://github.com/dirigeants/klasa" target="_blank"> KlasaJS</a> framework.</h4>
 
 <p align="center">
   <a href="#how-to-use">How To Use</a> •
-  <a href="#commands">Commands</a> •
+  <a href="#features">Features</a> •
   <a href="#invite">Invite to your server</a> •
   <a href="#fork / clone">Fork / Clone</a> •
   <a href="#credits">Credits</a> •
@@ -31,17 +40,21 @@
 </p>
 
 ## How to use
-The bot can be accessed by adding it to your Discord server and using the default prefix '>>' for commands, as shown above. Use >>help command for a list of all the available commands.
 
-## Commands
+The bot can be accessed by adding it to your Discord server and using the default prefix '>>' for commands, as shown
+above. Use >>help command for a list of all the available commands.
+
+## Features
+
 * Dictionary command for searching up word definitions
-  - [Oxford Dictionary](https://www.lexico.com/en) and [Urban Dictionary](https://www.urbandictionary.com/) are available via the command.
+  - [Oxford Dictionary](https://www.lexico.com/en) and [Urban Dictionary](https://www.urbandictionary.com/) are available
+via the command.
 * Trivia command for quizzes on your server.
 * Moderation commands
   - Ban, Mute and Kick commands are all available via the bot.
 * Wiki command for searching through Wikipedia articles.
 * Music commands for streaming music through voice channels in the server
-  - Music command fetches songs from YouTube to stream.
+   Music command fetches songs from YouTube to stream.
   - Pause feature so you don't miss out on your song when you've got to do something.
   - Autoplay feature to automatically create a playlist based one of your songs.
   - Loop feature to let you enjoy your songs endlessly!
@@ -51,7 +64,8 @@ The bot can be accessed by adding it to your Discord server and using the defaul
 
 ## Fork / Clone
 
-To clone and run this application, you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
+To clone and run this application, you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/)
+(which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
 
 ```bash
 # Clone this repository
@@ -64,12 +78,15 @@ $ cd Zero-Two
 $ npm install
 ```
 
-You can also directly support me and this bot by forking this bot and addding new commands / updating currently existing ones.
+You can also directly support me and this bot by forking this bot and addding new commands / updating currently existing
+ones.
 
 
 ## Invite
 
-You can invite Zero Two to your Discord server [here](https://discordapp.com/oauth2/authorize?client_id=536702606857469953&scope=bot&permissions=2146958847). (**NOTE:** Changing Zero Two's invitation permissions may result in some or all commands not working.)
+You can invite Zero Two to your Discord server
+[here](https://discordapp.com/oauth2/authorize?client_id=536702606857469953&scope=bot&permissions=2146958847).
+(**NOTE:** Changing Zero Two's invitation permissions may result in some or all commands not working.)
 
 ## Credits
 
@@ -91,4 +108,3 @@ Also a big thanks to the KlasaJS community for on both Github and Discord for th
 ## License
 
 MIT
-

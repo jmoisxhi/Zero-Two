@@ -22,12 +22,6 @@
   <a href="#license">License</a>
 </p>
 
-<h1 align="center">
-
-[![Build Status](https://travis-ci.org/jmoisxhi/Zero-Two.svg?branch=master)](https://travis-ci.org/jmoisxhi/Zero-Two)
-
-</h1>
-
 ## How to use
 The bot can be accessed by adding it to your Discord server and using the default prefix '>>' for commands, as shown above. Use >>help command for a list of all the available commands.
 

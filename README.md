@@ -23,9 +23,9 @@
 </p>
 
 <h1 align="center">
-  <a>
-    <img src="https://github.com/jmoisxhi/Zero-Two/blob/master/src/lib/assets/media/preview.gif" alt="Preview">
-  </a>
+
+[![Build Status](https://travis-ci.org/jmoisxhi/Zero-Two.svg?branch=master)](https://travis-ci.org/jmoisxhi/Zero-Two)
+
 </h1>
 
 ## How to use

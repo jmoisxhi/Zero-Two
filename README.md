@@ -18,6 +18,7 @@
   <a href="#license">License</a>
 </p>
 
+<img src="https://github.com/jmoisxhi/Zero-Two/blob/master/src/lib/assets/media/preview.gif"></img>
 ![screenshot](https://github.com/jmoisxhi/Zero-Two/blob/master/src/lib/assets/media/preview.gif)
 
 ## How to use

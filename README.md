@@ -18,7 +18,9 @@
   <a href="#license">License</a>
 </p>
 
-![screenshot](https://github.com/jmoisxhi/Zero-Two/blob/master/src/lib/assets/media/preview.gif)
+<p align="center">
+  ![screenshot](https://github.com/jmoisxhi/Zero-Two/blob/master/src/lib/assets/media/preview.gif)
+</p>
 
 ## How to use
 The bot can be accessed by adding it to your Discord server and using the default prefix '>>' for commands, as shown above. Use >>help command for a list of all the available commands.

@@ -1,12 +1,17 @@
 <h1 align="center">
   <br>
-  <a><img src="https://github.com/jmoisxhi/Zero-Two/blob/master/src/lib/assets/media/avatar.jpg" alt="Zero Two" width="400"></a>
+  <a>
+    <img src="https://github.com/jmoisxhi/Zero-Two/master/src/lib/assets/media/avatar.jpg" alt="Zero Two" width="400">
+  </a>
   <br>
   Zero Two
   <br>
 
   <a href="https://travis-ci.org/jmoisxhi/Zero-Two">
     <img src="https://travis-ci.org/jmoisxhi/Zero-Two.svg?branch=master" alt="Travis">
+  </a>
+  <a href="https://www.codacy.com/manual/jmoisxhi/Zero-Two?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=jmoisxhi/Zero-Two&amp;utm_campaign=Badge_Grade">
+    <img src="https://api.codacy.com/project/badge/Grade/8d5ebc6daa404b1686f66fa09386f597"/>
   </a>
 </h1>
 

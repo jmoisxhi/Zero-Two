@@ -7,11 +7,14 @@
   Zero Two
   <br>
 
+  <a href="https://lgtm.com/projects/g/jmoisxhi/Zero-Two/context:javascript">
+    <img alt="Language grade: JavaScript" src="https://img.shields.io/lgtm/grade/javascript/g/jmoisxhi/Zero-Two.svg?logo=lgtm&logoWidth=18"/>
+  </a>
   <a href="https://travis-ci.org/jmoisxhi/Zero-Two"><img src="https://travis-ci.org/jmoisxhi/Zero-Two.svg?branch=master" alt="Travis"></a>
   <a href="https://snyk.io//test/github/jmoisxhi/Zero-Two?targetFile=package.json">
     <img src="https://snyk.io//test/github/jmoisxhi/Zero-Two/badge.svg?targetFile=package.json" alt="Known Vulnerabilities" data-canonical-src="https://snyk.io//test/github/jmoisxhi/Zero-Two?targetFile=package.json" style="max-width:100%;">
   </a>
-
+  <a href="https://lgtm.com/projects/g/jmoisxhi/Zero-Two/alerts/"><img alt="Total alerts" src="https://img.shields.io/lgtm/alerts/g/jmoisxhi/Zero-Two.svg?logo=lgtm&logoWidth=18"/></a>
   
 </h1>
 

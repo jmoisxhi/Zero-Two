@@ -1,9 +1,13 @@
 <h1 align="center">
   <br>
-  <a><img src="https://vignette.wikia.nocookie.net/darling-in-the-franxx/images/4/47/Zero_Two_Strelizia_True_Apus.jpg/revision/latest/scale-to-width-down/1000?cb=20180814200307" alt="Zero Two" width="400"></a>
+  <a><img src="https://github.com/jmoisxhi/Zero-Two/blob/master/src/lib/assets/media/avatar.jpg" alt="Zero Two" width="400"></a>
   <br>
   Zero Two
   <br>
+
+  <a href="https://travis-ci.org/jmoisxhi/Zero-Two">
+    <img src="https://travis-ci.org/jmoisxhi/Zero-Two.svg?branch=master" alt="Travis">
+  </a>
 </h1>
 
 <h4 align="center">A Discord bot based on the popular anime series <a href="https://en.wikipedia.org/wiki/Darling_in_the_Franxx" target="_blank">Darling in the FranXX</a> and built on top of the <a href="https://github.com/dirigeants/klasa" target="_blank"> KlasaJS</a> framework.</h4>

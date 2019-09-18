@@ -95,7 +95,7 @@ module.exports = class extends Command {
         }
       })
       .catch(error => {
-        if (error.statusCode == 403) throw message.channel.send('OpenTDB is down, try again later, darling.');
+        if (error.statusCode === 403) throw message.channel.send('OpenTDB is down, try again later, darling.');
 
         throw message.send(message.language.get('COMMAND_ERROR_UPDATE', message));
       });

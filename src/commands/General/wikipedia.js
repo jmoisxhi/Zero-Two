@@ -29,8 +29,8 @@ module.exports = class extends Command {
     const wiki = await request(link)
       .then(article => JSON.parse(article))
       .catch(err => {
-        if (err.statusCode == 403) throw message.send('Wikipedia is down, try again later, darling.');
-        if (err.statusCode == 404) throw message.send('I couldn\'t find that article on Wikipedia, darling.');
+        if (err.statusCode === 403) throw message.send('Wikipedia is down, try again later, darling.');
+        if (err.statusCode === 404) throw message.send('I couldn\'t find that article on Wikipedia, darling.');
         else {
           throw message.send(message.language.get('COMMAND_ERROR_UPDATE', message));
         }

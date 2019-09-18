@@ -103,8 +103,8 @@ module.exports = class extends Command {
         })
       })
       .catch(error => {
-        if (error.statusCode == 403) throw message.send('UrbanDictionary is down, please try again later.');
-        if (error.statusCode == 404) throw message.send('I couldn\'t find that word in the UrbanDictionary darling.');
+        if (error.statusCode === 403) throw message.send('UrbanDictionary is down, please try again later.');
+        if (error.statusCode === 404) throw message.send('I couldn\'t find that word in the UrbanDictionary darling.');
 
         throw message.send(message.language.get('COMMAND_ERROR_UPDATE', message));
       });

@@ -41,8 +41,8 @@ module.exports = class extends Command {
           .setFooter('© Either.io');
       })
       .catch(error => {
-        if (error.statusCode == 403) throw message.send('Either.io is down, try again later, darling.');
-        if (error.statusCode == 404) throw message.send('I had some trouble finding a good question, please try again, darling.');
+        if (error.statusCode === 403) throw message.send('Either.io is down, try again later, darling.');
+        if (error.statusCode === 404) throw message.send('I had some trouble finding a good question, please try again, darling.');
 
         throw message.send(message.language.get('COMMAND_ERROR_UPDATE', message));
       });

@@ -179,7 +179,7 @@ class MusicManager {
       url: song.video_id,
       title: song.title.replace(/@(here|everyone)/, '@\u200B$1'),
       requester: user,
-      seconds: parseInt(song.length_seconds),
+      seconds: parseInt(song.length_seconds, 10),
       opus: song.formats.some(
         format => format.type === 'audio/webm, codecs=\'opus\''
       )

@@ -22,9 +22,7 @@
   <a href="https://lgtm.com/projects/g/jmoisxhi/Zero-Two/alerts/">
     <img alt="Total alerts" src="https://img.shields.io/lgtm/alerts/g/jmoisxhi/Zero-Two.svg?logo=lgtm&logoWidth=18" />
   </a>
-  <a href="https://david-dm.org/jmoisxhi/Zero-Two">
-    <img alt="Dependencies" src="https://david-dm.org/jmoisxhi/Zero-Two/status.svg">
-  </a>
+  <a href="https://david-dm.org/jmoisxhi/Zero-Two"><img alt="dependencies status" src="https://david-dm.org/jmoisxhi/Zero-Two/status.svg"/></a>
 
 </h1>
 
@@ -41,6 +39,10 @@
   <a href="#you-might-also-like...">Related</a> •
   <a href="#license">License</a>
 </p>
+
+<h1 align="center">
+  <img alt="preview" src="https://github.com/jmoisxhi/Zero-Two/blob/master/src/lib/assets/media/preview.gif">
+</h1>
 
 ## How to use
 

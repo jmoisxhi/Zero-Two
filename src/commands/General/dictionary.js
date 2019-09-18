@@ -10,6 +10,7 @@ module.exports = class extends Command {
       name: 'Dictionary',
       aliases: ['dictionary', 'def', 'define', 'meaning', 'word'],
       guarded: true,
+      requiredPermissions: ['MANAGE_MESSAGES', 'EMBED_LINKS'],
       description: 'Find the definition of a word (>>help dictionary for more info)',
       subcommands: true,
       usage: '<urban|oxford:default> <wordToDefine:string> [...]',

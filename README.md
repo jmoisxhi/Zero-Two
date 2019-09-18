@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <a><img src="https://vignette.wikia.nocookie.net/darling-in-the-franxx/images/4/47/Zero_Two_Strelizia_True_Apus.jpg/revision/latest/scale-to-width-down/1000?cb=20180814200307" alt="Zero Two"></a>
+  <a><img src="https://vignette.wikia.nocookie.net/darling-in-the-franxx/images/4/47/Zero_Two_Strelizia_True_Apus.jpg/revision/latest/scale-to-width-down/1000?cb=20180814200307" alt="Zero Two" width="1024"></a>
   <br>
   🤖Zero Two🤖
   <br>
@@ -18,7 +18,7 @@
   <a href="#license">License</a>
 </p>
 
-<a><img src="https://github.com/jmoisxhi/Zero-Two/blob/master/src/lib/assets/media/preview.gif" alt="Preview" width="200"></a>
+<a><img src="https://github.com/jmoisxhi/Zero-Two/blob/master/src/lib/assets/media/preview.gif" alt="Preview"></a>
 
 ## How to use
 The bot can be accessed by adding it to your Discord server and using the default prefix '>>' for commands, as shown above. Use >>help command for a list of all the available commands.

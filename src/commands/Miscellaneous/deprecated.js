@@ -7,8 +7,8 @@ module.exports = class extends Command {
     super(...args, {
       name: 'deprecated',
       hidden: true,
-      aliases: ['ud', 'urbandictionary', 'urban'],
-      description: 'DEPRECATED COMMAND MESSAGE'
+      aliases: ['ud', 'urbandictionary', 'urban', 'topic'],
+      description: 'This is just here to send a message whenever someone uses an old command'
     });
   }
 

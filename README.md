@@ -1,8 +1,8 @@
 <h1 align="center">
   <br>
-  <a><img src="https://vignette.wikia.nocookie.net/darling-in-the-franxx/images/4/47/Zero_Two_Strelizia_True_Apus.jpg/revision/latest/scale-to-width-down/1000?cb=20180814200307" alt="Zero Two" width="800"></a>
+  <a><img src="https://vignette.wikia.nocookie.net/darling-in-the-franxx/images/4/47/Zero_Two_Strelizia_True_Apus.jpg/revision/latest/scale-to-width-down/1000?cb=20180814200307" alt="Zero Two" width="400"></a>
   <br>
-  🤖Zero Two🤖
+  Zero Two
   <br>
 </h1>
 

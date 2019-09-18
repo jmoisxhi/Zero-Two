@@ -6,7 +6,7 @@
   <br>
 </h1>
 
-<h4 align="center">A Discord bot bassed on the popular anime series <a href="https://en.wikipedia.org/wiki/Darling_in_the_Franxx" target="_blank">Darling in the FranXX</a> and built on top of the <a href="https://github.com/dirigeants/klasa" target="_blank"> KlasaJS</a> framework.</h4>
+<h4 align="center">A Discord bot based on the popular anime series <a href="https://en.wikipedia.org/wiki/Darling_in_the_Franxx" target="_blank">Darling in the FranXX</a> and built on top of the <a href="https://github.com/dirigeants/klasa" target="_blank"> KlasaJS</a> framework.</h4>
 
 <p align="center">
   <a href="#how-to-use">How To Use</a> •

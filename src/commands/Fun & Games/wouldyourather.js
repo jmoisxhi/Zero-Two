@@ -20,7 +20,7 @@ module.exports = class extends Command {
     const choice = Math.floor((Math.random() * 483514) + 0);
     const url = 'http://www.either.io/';
     const title = 'Either.io';
-    const author = 'Would you rather?'
+    const author = 'Would you rather?';
     const link = url + choice;
 
     const display = request(link)

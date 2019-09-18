@@ -7,9 +7,12 @@
   Zero Two
   <br>
 
-  <a href="https://travis-ci.org/jmoisxhi/Zero-Two">
-    <img src="https://travis-ci.org/jmoisxhi/Zero-Two.svg?branch=master" alt="Travis">
+  <a href="https://travis-ci.org/jmoisxhi/Zero-Two"><img src="https://travis-ci.org/jmoisxhi/Zero-Two.svg?branch=master" alt="Travis"></a>
+  <a href="https://snyk.io//test/github/jmoisxhi/Zero-Two?targetFile=package.json">
+    <img src="https://snyk.io//test/github/jmoisxhi/Zero-Two/badge.svg?targetFile=package.json" alt="Known Vulnerabilities" data-canonical-src="https://snyk.io//test/github/jmoisxhi/Zero-Two?targetFile=package.json" style="max-width:100%;">
   </a>
+
+  
 </h1>
 
 <h4 align="center">A Discord bot based on the popular anime series <a href="https://en.wikipedia.org/wiki/Darling_in_the_Franxx" target="_blank">Darling in the FranXX</a> and built on top of the <a href="https://github.com/dirigeants/klasa" target="_blank"> KlasaJS</a> framework.</h4>

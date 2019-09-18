@@ -26,7 +26,7 @@ module.exports = class extends Command {
     for (let song = 0; song < queue.length; song++) {
       display.addPage(template => template
         .setAuthor(`${queue[song].requester.tag || queue[song].requester}`, `${queue[song].requester.avatarURL()}`)
-        .setTitle(`${queue[song].title.replace(/\*/g, '\\*')}`)
+        .setTitle(`${queue[song].title}`)
         .setURL(`https://youtu.be/${queue[song].url}`)
         .addField('**Duration:**', `${showSeconds(queue[song].seconds * 1000)} mins`), true);
     }

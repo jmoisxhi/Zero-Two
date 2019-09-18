@@ -39,7 +39,7 @@ module.exports = class extends Command {
       .setAuthor(author)
       .setColor(color)
       .setThumbnail(thumbnail)
-      .setFooter(footer)
+      .setFooter(footer);
 
     const stats = [];
     const leaderboard = [];

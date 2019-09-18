@@ -56,8 +56,8 @@ module.exports = class extends Command {
         });
       })
       .catch(error => {
-        if (error.statusCode == 403) throw message.send('Oxford Dictionary is down, try again later, darling.');
-        if (error.statusCode == 404) throw message.send('I couldn\'t find that word in the dictionary, darling.');
+        if (error.statusCode === 403) throw message.send('Oxford Dictionary is down, try again later, darling.');
+        if (error.statusCode === 404) throw message.send('I couldn\'t find that word in the dictionary, darling.');
 
         throw message.send(message.language.get('COMMAND_ERROR_UPDATE', message));
       });

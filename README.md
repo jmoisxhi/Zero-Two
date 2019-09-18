@@ -8,9 +8,8 @@
   Zero Two
   <br>
 
-  <a href="https://lgtm.com/projects/g/jmoisxhi/Zero-Two/context:javascript">
-    <img alt="Language grade: JavaScript"
-      src="https://img.shields.io/lgtm/grade/javascript/g/jmoisxhi/Zero-Two.svg?logo=lgtm&logoWidth=18" />
+  <a href="https://www.codacy.com/manual/jmoisxhi/Zero-Two?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=jmoisxhi/Zero-Two&amp;utm_campaign=Badge_Grade">
+    <img src="https://api.codacy.com/project/badge/Grade/30fdfbf3f2f9400abdcbdfaec2f1582e"/>
   </a>
   <a href="https://travis-ci.org/jmoisxhi/Zero-Two"><img src="https://travis-ci.org/jmoisxhi/Zero-Two.svg?branch=master"
       alt="Travis"></a>
@@ -20,8 +19,12 @@
       data-canonical-src="https://snyk.io//test/github/jmoisxhi/Zero-Two?targetFile=package.json"
       style="max-width:100%;">
   </a>
-  <a href="https://lgtm.com/projects/g/jmoisxhi/Zero-Two/alerts/"><img alt="Total alerts"
-      src="https://img.shields.io/lgtm/alerts/g/jmoisxhi/Zero-Two.svg?logo=lgtm&logoWidth=18" /></a>
+  <a href="https://lgtm.com/projects/g/jmoisxhi/Zero-Two/alerts/">
+    <img alt="Total alerts" src="https://img.shields.io/lgtm/alerts/g/jmoisxhi/Zero-Two.svg?logo=lgtm&logoWidth=18" />
+  </a>
+  <a href="https://david-dm.org/jmoisxhi/Zero-Two">
+    <img alt="Dependencies" src="https://david-dm.org/jmoisxhi/Zero-Two/status.svg">
+  </a>
 
 </h1>
 

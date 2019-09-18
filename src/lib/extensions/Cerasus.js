@@ -1,5 +1,5 @@
 const { Structures } = require('discord.js');
-const MusicManager = require('../structures/musicManager.js');
+const MusicManager = require('../structures/MusicManager.js');
 
 module.exports = Structures.extend('Guild', Guild => {
 

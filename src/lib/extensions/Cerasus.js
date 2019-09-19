@@ -14,7 +14,7 @@ module.exports = Structures.extend('Guild', Guild => {
 
       /**
        * The MusicManager instance for this client
-       * @since 2.0.0
+       * @since 1.0.0
        * @type {MusicManager}
        */
       this.music = new MusicManager(this);

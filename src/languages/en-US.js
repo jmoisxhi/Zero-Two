@@ -147,6 +147,9 @@ module.exports = class extends Language {
 			COMMAND_CONF_USER_DESCRIPTION: 'Define per-user settings.',
 			COMMAND_CONF_USER: (key, list) => `**User Settings${key}**\n${list}`,
 			COMMAND_ERROR_UPDATE: (message) => `This command needs an update, try messaging Mixi (${message.client.owner.tag}) or doing >>info and heading over to the issues page.`,
+			TOO_FEW_MEMBERS: (key) => `You dont have enough players, you need at least ${key} player(s) to start the game.`,
+			TOO_MANY_MEMBERS: (key) => `You have too many players, the number of player(s) must be less than ${key} before you can start`,
+			NO_DEFINITION_FOUND: 'I couldn\'t find that word in the dictionary, darling.',
 			COMMAND_STATS: (memUsage, uptime, users, guilds, channels, klasaVersion, discordVersion, processVersion, message) => [
 				'= STATISTICS =',
 				'',

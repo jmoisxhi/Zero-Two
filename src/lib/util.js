@@ -1,3 +1,4 @@
+/* eslint-disable init-declarations */
 const html = require('he');
 
 const SECOND = 1000;
@@ -39,5 +40,17 @@ module.exports = class Util {
     const minutes = `${Math.ceil(seconds / 60)} mins`;
 
     return minutes;
+  }
+
+  static shuffle(array) {
+    let i, j, x;
+    for (i = array.length - 1; i > 0; i--) {
+      j = Math.floor(Math.random() * (i + 1));
+      x = array[i];
+      array[i] = array[j];
+      array[j] = x;
+    }
+
+    return array;
   }
 }

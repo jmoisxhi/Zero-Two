@@ -26,7 +26,7 @@ module.exports = class extends Command {
   async oxford(message, [...wordToDefine]) {
     const query = encodeURIComponent(wordToDefine.join(this.usageDelim));
 
-    const author = 'Lexico'
+    const author = 'Lexico (Powered By Oxford)'
     const thumbnail = 'https://i.imgur.com/4wHZP6c.png';
     const url = 'https://www.lexico.com/en/definition/'
     const link = url + query;
@@ -37,14 +37,14 @@ module.exports = class extends Command {
       .setThumbnail(thumbnail)
       .setURL(link));
 
-    request(link)
+    await request(link)
       .then(definition => {
-        const $ = cheerio.load(definition);
+        const $ = cheerio.load(definition.body);
         const title = toTitleCase($('.entryWrapper').find('.hw').data('headword-id'));
 
         $('.entryWrapper').children('.gramb').each((i, el) => {
-          const examples = `\n**Examples:**\n${$(el).find('.ex').first().text()}`
-          const meaning = $(el).find('.ind').text().toString().replace('.', '.\n\n');
+          const examples = `\n**Examples:**\n${$(el).find('.ex').first().text()}`;
+          const meaning = $(el).find('.ind').text().replace('.', '.\n\n');
           const type = toTitleCase($(el).find('.pos').children('.pos').text());
 
           display.addPage(template => template
@@ -56,14 +56,11 @@ module.exports = class extends Command {
             .setTitle(title));
         });
       })
-      .catch(error => {
-        if (error.statusCode === 403) throw message.send('Oxford Dictionary is down, try again later, darling.');
-        if (error.statusCode === 404) throw message.send('I couldn\'t find that word in the dictionary, darling.');
-
-        throw message.send(message.language.get('COMMAND_ERROR_UPDATE', message));
+      .catch(() => {
+        throw message.language.get('NO_DEFINITION_FOUND');
       });
 
-    return display.run(await message.send('Loading definitions...'));
+    return display.run(await message.channel.send('Loading definitions...'));
   }
 
   async urban(message, [...wordToDefine]) {
@@ -103,11 +100,8 @@ module.exports = class extends Command {
             .setTitle(title));
         })
       })
-      .catch(error => {
-        if (error.statusCode === 403) throw message.send('UrbanDictionary is down, please try again later.');
-        if (error.statusCode === 404) throw message.send('I couldn\'t find that word in the UrbanDictionary darling.');
-
-        throw message.send(message.language.get('COMMAND_ERROR_UPDATE', message));
+      .catch(() => {
+        throw message.language.get('NO_DEFINITION_FOUND');
       });
 
     return display.run(await message.send('Loading definitions...'));

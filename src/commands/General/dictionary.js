@@ -3,6 +3,7 @@ const { MessageEmbed } = require('discord.js');
 const { Command, RichDisplay, util: { toTitleCase } } = require('klasa');
 const request = require('request-promise');
 const { color } = require('../../../config.json');
+const { splitText } = require('../../lib/util.js');
 
 module.exports = class extends Command {
   constructor(...args) {
@@ -39,7 +40,7 @@ module.exports = class extends Command {
 
     await request(link)
       .then(definition => {
-        const $ = cheerio.load(definition.body);
+        const $ = cheerio.load(definition);
         const title = toTitleCase($('.entryWrapper').find('.hw').data('headword-id'));
 
         $('.entryWrapper').children('.gramb').each((i, el) => {
@@ -47,16 +48,19 @@ module.exports = class extends Command {
           const meaning = $(el).find('.ind').text().replace('.', '.\n\n');
           const type = toTitleCase($(el).find('.pos').children('.pos').text());
 
+          const description = [
+            `\n\n**${type}:**`,
+            `${meaning}`,
+            `${examples}`
+          ].join('\n');
+
           display.addPage(template => template
-            .setDescription([
-              `\n\n**${type}:**`,
-              `${meaning}`,
-              `${examples}`
-            ])
+            .setDescription(splitText(description, 1800))
             .setTitle(title));
         });
       })
-      .catch(() => {
+      .catch(error => {
+        console.log(error);
         throw message.language.get('NO_DEFINITION_FOUND');
       });
 
@@ -82,21 +86,23 @@ module.exports = class extends Command {
         const $ = cheerio.load(definition);
 
         $('.def-panel').each((i, el) => {
-          const title = $(el).find('.word').text();
+          const title = toTitleCase($(el).find('.word').text());
           const meaning = $(el).children('.meaning').text();
           const contributor = $(el).children('.contributor').children('a').text();
           const examples = $(el).find('.example').text();
           const upvotes = $(el).find('.up').children('.count').text();
           const downvotes = $(el).find('.down').children('.count').text();
 
+          const description = [
+            `${meaning}`,
+            `\n**Examples:**\n${examples}`,
+            `\n**Author:** ${contributor}`
+          ].join('\n');
+
           display.addPage(template => template
             .addField("Upvotes", `\\👍 ${upvotes}`, true)
             .addField("Downvotes", `\\👎 ${downvotes}`, true)
-            .setDescription([
-              `${meaning}`,
-              `\n**Examples:**\n${examples}`,
-              `\n**Author:** ${contributor}`
-            ])
+            .setDescription(splitText(description, 1800))
             .setTitle(title));
         })
       })

@@ -4,8 +4,8 @@
   "description": "A Discord Bot based on the KlasaJS bot framework.",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "start:dev": "node nineiota.js",
+    "start": "node src/index.js",
+    "start:dev": "node src/nineiota.js",
     "lint": "eslint --cache .",
     "test": "npm run lint"
   },

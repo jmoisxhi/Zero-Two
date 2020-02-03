@@ -22,6 +22,6 @@ module.exports = class extends Command {
       .then(console.log)
       .catch(console.error);
 
-    return message.send(`Your nickname has been changed to: **${nickName}**`);
+    return message.send(`Your nickname has been changed to: **${nickname}**`);
   }
 };

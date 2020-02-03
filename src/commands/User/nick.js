@@ -18,7 +18,7 @@ module.exports = class extends Command {
   }
 
   async run(message, [nickname]) {
-    message.member.setNickname(nickName)
+    message.member.setNickname(nickname)
       .then(console.log)
       .catch(console.error);
 

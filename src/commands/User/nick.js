@@ -8,16 +8,16 @@ module.exports = class extends Command {
       aliases: ['nickname', 'name'],
       description: 'Change your nickname within your server.',
       guarded: true,
-      usage: '<String:nick>',
-      extendedHelp: 'Simply do >>avatar <user> to retrieve the user\'s profile picture.'
+      usage: '<nickname:string>',
+      extendedHelp: 'Simply do >>nick <nickName> to add your nickname.'
     });
 
-    this.customizeResponse('nick',
+    this.customizeResponse('nickname',
       'You need to give me a valid nickname, darling.'
     );
   }
 
-  async run(message, [nickName]) {
+  async run(message, [nickname]) {
     message.member.setNickname(nickName)
       .then(console.log)
       .catch(console.error);

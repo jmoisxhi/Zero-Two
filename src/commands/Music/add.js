@@ -32,13 +32,13 @@ module.exports = class extends Command {
     if (id) return `https://youtu.be/${id[1]}`;
 
     const query = encodeURIComponent(searchEntry);
-    const url = 'http://www.v.ytapi.com/search?q=';
+    const url = 'https://www.youtube.com/results?search_query=';
     const link = url + query;
 
     const video = await request(link)
       .then(response => {
         const $ = cheerio.load(response);
-        const result = $('img').first().parent().attr('href');
+        const result = $('#video-title').first().attr('href');
 
         return result.replace('/watch?v=', '');
       })

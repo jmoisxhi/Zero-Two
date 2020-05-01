@@ -7,7 +7,9 @@
     "start": "node src/index.js",
     "start:dev": "node src/nineiota.js",
     "lint": "eslint --cache .",
-    "test": "npm run lint"
+    "test": "npm run lint",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -43,9 +45,11 @@
     "request-promise": "^4.2.4",
     "utf-8-validate": "^5.0.2",
     "ws": "^7.2.1",
-    "ytdl-core": "^0.29.6"
+    "ytdl-core": "^0.29.6",
+    "snyk": "^1.316.1"
   },
   "devDependencies": {
     "eslint": "^6.4.0"
-  }
+  },
+  "snyk": true
 }

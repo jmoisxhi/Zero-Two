@@ -42,7 +42,7 @@
     "request": "^2.88.0",
     "request-promise": "^4.2.4",
     "utf-8-validate": "^5.0.2",
-    "ws": "^7.2.1",
+    "ws": "^7.4.6",
     "ytdl-core": "^0.29.6"
   },
   "devDependencies": {

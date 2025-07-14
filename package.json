@@ -39,8 +39,8 @@
     "libsodium-wrappers": "^0.7.4",
     "opusscript": "0.0.6",
     "prism-media": "^1.1.0",
-    "request": "^2.88.0",
-    "request-promise": "^4.2.4",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6",
     "utf-8-validate": "^5.0.2",
     "ws": "^7.2.1",
     "ytdl-core": "^0.29.6"
